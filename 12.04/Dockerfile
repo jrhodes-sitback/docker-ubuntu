@@ -12,3 +12,7 @@ RUN update-locale LC_ALL=en_AU.UTF-8 LANG=en_AU.UTF-8 LANGUAGE=en_AU:en
 ENV LANG en_AU.UTF-8
 ENV LANGUAGE en_AU:en
 ENV LC_ALL en_AU.UTF-8
+
+# Set timezone to be AEST/AEDT.
+RUN echo "Australia/Sydney" > /etc/timezone
+RUN dpkg-reconfigure --frontend noninteractive tzdata

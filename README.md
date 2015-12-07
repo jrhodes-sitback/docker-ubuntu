@@ -1,5 +1,5 @@
 # docker-ubuntu
-A base Ubuntu Docker container with en_AU (UTF8) locale support.
+A base Ubuntu Docker container with en_AU (UTF8) locale support and timezone set to Australia/Sydney.
 
 The [_deboostrap_ Docker Ubuntu variant](https://hub.docker.com/_/ubuntu-debootstrap/) is used to build these images.
 
