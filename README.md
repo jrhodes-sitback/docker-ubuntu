@@ -11,14 +11,17 @@ Its intended use is for Docker container projects that are built on CI tools (su
 
 ## Available Images
 
+* Ubuntu 16.04
+    - `chinthakagodawita/ubuntu:16.04`
+    - `chinthakagodawita/ubuntu:latest`
 * Ubuntu 14.04
     - `chinthakagodawita/ubuntu:14.04`
-    - `chinthakagodawita/ubuntu:latest`
 * Ubuntu 12.04
     - `chinthakagodawita/ubuntu:12.04`
 
 ## Building
 ```bash
+docker build -t chinthakagodawita/ubuntu:16.04 16.04/
 docker build -t chinthakagodawita/ubuntu:14.04 14.04/
 docker build -t chinthakagodawita/ubuntu:12.04 12.04/
 ```
